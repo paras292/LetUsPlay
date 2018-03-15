@@ -1,0 +1,25 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>LET US PLAY</h1>
+    <p class="lead">LetUs Play is Great Web Based Platform To connect to your friends who wants to play with you.Let's Start playing!!</p>
+    <p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Register</h2>
+        <p>
+            Click here to open New Account
+        </p>
+        <a href=  "@Url.Action("Register","Account")"  class ="btn btn-primary"> Register</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Log In</h2>
+        <p>Open your Existing Account</p>
+        <a href= "@Url.Action("Login","Account")" class="btn btn-primary">Log In</a></p>
+    </div>
+  
+</div>
