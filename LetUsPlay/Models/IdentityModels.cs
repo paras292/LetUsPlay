@@ -29,5 +29,7 @@ namespace LetUsPlay.Models
         {
             return new ApplicationDbContext();
         }
+
+        public DbSet<Location> Locations { get; set; }
     }
 }

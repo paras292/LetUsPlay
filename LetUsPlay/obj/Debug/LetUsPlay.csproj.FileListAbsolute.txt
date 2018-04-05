@@ -69,3 +69,4 @@ C:\Users\home\source\repos\LetUsPlay\LetUsPlay\obj\Debug\LetUsPlay.csprojResolve
 C:\Users\home\source\repos\LetUsPlay\LetUsPlay\obj\Debug\LetUsPlay.csproj.CoreCompileInputs.cache
 C:\Users\home\source\repos\LetUsPlay\LetUsPlay\obj\Debug\LetUsPlay.dll
 C:\Users\home\source\repos\LetUsPlay\LetUsPlay\obj\Debug\LetUsPlay.pdb
+C:\Users\home\source\repos\LetUsPlay\LetUsPlay\obj\Debug\LetUsPlay.csproj.CopyComplete
