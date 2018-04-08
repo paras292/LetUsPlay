@@ -31,6 +31,7 @@ namespace LetUsPlay.Migrations
                 context.Locations.AddOrUpdate(new Location { LocationName = "H8" });
                 context.Locations.AddOrUpdate(new Location { LocationName = "H9" });
             }
+
         }
     }
 }

@@ -17,7 +17,7 @@ namespace LetUsPlay.Controllers
             return RedirectToAction("SelectOptions");
         }
 
-     //   [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin")]
         public ActionResult ListOfLocations()
         {
             return View(db.Locations.ToList());

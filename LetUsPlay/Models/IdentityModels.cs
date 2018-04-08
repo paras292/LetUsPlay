@@ -1,4 +1,5 @@
-﻿using System.Data.Entity;
+﻿using System.Collections.Generic;
+using System.Data.Entity;
 using System.Security.Claims;
 using System.Threading.Tasks;
 using Microsoft.AspNet.Identity;
@@ -16,6 +17,8 @@ namespace LetUsPlay.Models
             // Add custom user claims here
             return userIdentity;
         }
+
+        public ICollection<Playing> Playings { get; set; }
     }
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
@@ -31,5 +34,7 @@ namespace LetUsPlay.Models
         }
 
         public DbSet<Location> Locations { get; set; }
+        public DbSet<Game> Games { get; set; }
+        public DbSet<Playing> Playing{ get; set; }
     }
 }
